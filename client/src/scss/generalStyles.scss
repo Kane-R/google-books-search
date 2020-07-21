@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+}
+
+body{
+  min-height:100%;
+}
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+  p{
+    font-size:1.2em;
+  }
+}
+
+button{
+  cursor:pointer;
+}
+
+#wrapper{
+  width:100%;
+
+  margin:0 auto;
+  
+  box-sizing:border-box;
+  min-height:calc(100% - 50px);
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#wrapper-contents{
+  padding-top: 160px;
+  width:90%;
+  margin: 0 auto;
+  flex: 1;
+}
+
+h1{
+  margin: 1em 0;
+}
+
+
+@media only screen and (min-width: 600px) {
+  #wrapper-contents{
+    padding-top: 140px;
+    max-width:1200px;
+  }
+}
