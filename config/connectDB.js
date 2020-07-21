@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 require('dotenv/config');
 
-const dbConfig = process.env.MONGODB_URI || "mongodb://localhost/googlebooksearchdb";;
+const dbConfig = process.env.MONGODB_URI || "mongodb://localhost/googlebooksearchdb";
 
 
 async function connectDB(){
